@@ -1,0 +1,129 @@
+h1, h2, h3, h4, h5 { 
+    font-family: neuton, serif;
+}
+
+.frontpage-hero {
+    background-color: #1f1e1eff ;
+    height: 100vh;
+}
+.btn {
+    font-family: neuton, serif;
+}
+
+.services-section {
+    margin-top: 100px;
+}
+
+.team-section {
+    margin-top: 100px;
+    background-color: #1f1e1eff;
+    padding: 70px 0px;
+    color: grey;
+}
+
+.contact-footer {
+    font-family: neuton, serif;
+    border-top: solid 1px #6bc5f6;
+    padding: 50px 0px;
+    background-color: #1f1e1eff;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.services-span {
+    padding-bottom: 1px;
+    border-bottom: 2px solid #f6b26b;
+}
+
+.services-content {
+    margin-top: 40px;
+}
+
+.hero-container{
+    height: 100vh;
+    text-align: center;
+}
+
+.logo {
+  font-family: neuton, serif;
+  font-size: 18vw;
+  left: 50%;
+  position: absolute;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  line-height: 1;
+  color: #baccdf;
+  animation: neon .50s ease-in-out infinite alternate;
+  width: 100%;
+}
+.sublogo {
+    width: 80%;
+    font-family: neuton, serif;
+    font-size: 5vw;
+    left: 50%;
+    position: absolute;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 1;
+    color: #baccdf;
+}
+
+.hero-button {
+    left: 50%;
+    position: absolute;
+    top: 65%;
+    transform: translate(-50%, -50%);
+}
+
+@media (min-width: 768px) { 
+
+    .contact-form input {
+        width: 80%;
+        margin-bottom: 5px;
+    }
+    
+    .contact-form textarea {
+        width: 80%;
+        margin-bottom: 5px;
+    }
+ }
+
+.picture-div {
+  padding: 30px;
+}
+
+.contact-form input {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.contact-form textarea {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.contact-h3 {
+    margin-bottom: 20px;
+}
+
+@keyframes neon {
+from {
+  text-shadow:
+  0 0 6px rgba(202,228,225,0.92),
+  0 0 30px rgba(202,228,225,0.34),
+  0 0 12px rgba(30,132,242,0.52),
+  0 0 21px rgba(30,132,242,0.92),
+  0 0 34px rgba(30,132,242,0.78),
+  0 0 54px rgba(30,132,242,0.92);
+}
+to {
+  text-shadow:
+  0 0 6px rgba(202,228,225,0.98),
+  0 0 30px rgba(202,228,225,0.42),
+  0 0 12px rgba(30,132,242,0.58),
+  0 0 22px rgba(30,132,242,0.84),
+  0 0 38px rgba(30,132,242,0.88),
+  0 0 60px rgba(30,132,242,1);
+}}
